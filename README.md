@@ -3,7 +3,7 @@
 - 👀 I’m interested in Geographic Information Systems, Environment, Anthropology and Data Sciences.
 - 🌱 I’m currently developing my skills in Data Science / Analytics and Machine Learning
 - 💞️ I’m looking to collaborate on fun projects where I can develop on these skills, while trying to make an impact to society
-- 📫 You may contact me via LinkedIn, https://www.linkedin.com/in/gpavico/
+- 📫 You may contact me via <a href='https://www.linkedin.com/in/gpavico/'>LinkedIn</a>
 
 Education
 
