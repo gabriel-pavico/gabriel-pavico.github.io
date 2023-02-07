@@ -1,83 +1,52 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Gabriel's GitHub Page</title>
-        <meta name="description" content="Gabriel's GitHub Page">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        
-        <h1 id="gabriel-pavicogithubio">gabriel-pavico.github.io</h1>
-        <ul>
-          <li>👋 Hi, I’m Gabriel</li>
-          <li>👀 I’m interested in Geographic Information Systems, Environment, Anthropology and Data Sciences.</li>
-          <li>🌱 I’m currently developing my skills in Data Science / Analytics and Machine Learning</li>
-          <li>💞️ I’m looking to collaborate on fun projects where I can develop on these skills, while trying to make an impact to society</li>
-          <li>📫 You may contact me via <a href="https://www.linkedin.com/in/gpavico/">LinkedIn</a></li>
-        </ul>
-        
-        <h1>Projects (more to follow)</h1>
-         <ul>
-           <li><a href="/amsterdam.html">Ideal location to live in Amsterdam</a></li>
-           <li><a href="/arcpy_scripts/">ArcPy Python Scripts created for the thesis project</a></li>
-        </ul>
+# gabriel-pavico.github.io
+- 👋 Hi, I’m Gabriel
+- 👀 I’m interested in Geographic Information Systems, Environment, Anthropology and Data Sciences.
+- 🌱 I’m currently developing my skills in Data Science / Analytics and Machine Learning
+- 💞️ I’m looking to collaborate on fun projects where I can develop on these skills, while trying to make an impact to society
+- 📫 You may contact me via <a href='https://www.linkedin.com/in/gpavico/'>LinkedIn</a>
 
-        <h1>Education</h1>
-        <ul>
-          <li>
-            <p>2019 - 2023: Master in Geographic Information Sciences (Lund University, Sweden)
-        Thesis on Wildfires using GIS (<a href="https://lup.lub.lu.se/student-papers/search/publication/9106803">link</a>)</p>
-          </li>
-          <li>
-            <p>2013 - 2015: Master in Applied Cultural Analysis (Lund University, Sweden)
-        Thesis on Technology Acceptance (<a href="https://lup.lub.lu.se/student-papers/search/publication/5368539">link</a>)</p>
-          </li>
-          <li>
-            <p>2010 - 2013: Master of Science in Marketing (De La Salle University, Philippines)
-        Thesis on Consumer Behaviour</p>
-          </li>
-          <li>
-            <p>2004 - 2007: Bachelor of Arts in Philippine Studies, major in Filipino in Mass Media (De La Salle University, Philippines)
-        Thesis using Discourse Analysis</p>
-          </li>
-        </ul>
+Projects (more to follow:
+- <a href="/amsterdam.html">Ideal location to live in Amsterdam</a>
+- <a href="/arcpy_scripts/">ArcPy Python Scripts created for the thesis project</a>
 
-        <h1>Professional Experience</h1>
-        <p>I have worked in various industries since 2007, and below are short descriptions of the positions I have held throughout my career.</p>
+Education
 
-        <ul>
-          <li>
-            <p>2022 - 2022 (6 mos.): Project Assistant (Lund University). Educational Instituion. Research, R Programming, Python.</p>
-          </li>
-          <li>
-            <p>2015 - 2020 (4 yrs. 4 mos.): Regulatory, QA, Design Coordinator (Kyäni Europe). Consumer Goods. Regulatory Affairs, Quality Assurance, Graphics and Video Editing, Publishing, Marketing.</p>
-          </li>
-          <li>
-            <p>2013 - 2015 (2 yrs). Research Assistant (Lund University). Educational Instituion. Researcher, Proof Reader, Project Management.</p>
-          </li>
-          <li>
-            <p>2013 - 2014 (1 yr. 3 mos.): Student Worker (Lund Municipality). Public Sector. Researcher and Project Implementation.</p>
-          </li>
-          <li>
-            <p>2010 - 2012 (2 yrs. 1 mo.): Project Coordinator (DLSU). Educational Instituion. Events Managment, Marketing.</p>
-          </li>
-          <li>
-            <p>2009 - 2009 (9 mos.): Junior Analyst (PSA). Management Consulting. Researcher, Project Management, Documentation.</p>
-          </li>
-          <li>
-            <p>2007 - 2008 (1 yr 3 mos.): Junior Technical Services Assistant (PRIMEX). Management Consulting. Documentation, Project Management</p>
-          </li>
-          <li>
-            <p>2007 - 2007 (3 mos.): Internship (ABS-CBN). Television. Art Department, Pre Production</p>
-          </li>
-          <li>
-            <p>2006 - 2006 (7 mos.): Internship (GMA Network). Television. Production and Post Production</p>
-          </li>
-        </ul>
+- 2019 - 2023: Master in Geographic Information Sciences (Lund University, Sweden)
+Thesis on Wildfires using GIS (<a href='https://lup.lub.lu.se/student-papers/search/publication/9106803'>link</a>)
 
-    </body>
-</html>
+- 2013 - 2015: Master in Applied Cultural Analysis (Lund University, Sweden)
+Thesis on Technology Acceptance (<a href='https://lup.lub.lu.se/student-papers/search/publication/5368539'>link</a>)
+
+- 2010 - 2013: Master of Science in Marketing (De La Salle University, Philippines)
+Thesis on Consumer Behaviour
+
+- 2004 - 2007: Bachelor of Arts in Philippine Studies, major in Filipino in Mass Media (De La Salle University, Philippines)
+Thesis using Discourse Analysis
+
+Professional Experience
+
+I have worked in various industries since 2007, and below are short descriptions of the positions I have held throughout my career.
+
+- 2022 - 2022 (6 mos.): Project Assistant (Lund University). Educational Instituion. Research, R Programming, Python.
+
+- 2015 - 2020 (4 yrs. 4 mos.): Regulatory, QA, Design Coordinator (Kyäni Europe). Consumer Goods. Regulatory Affairs, Quality Assurance, Graphics and Video Editing, Publishing, Marketing.
+
+- 2013 - 2015 (2 yrs). Research Assistant (Lund University). Educational Instituion. Researcher, Proof Reader, Project Management.
+
+- 2013 - 2014 (1 yr. 3 mos.): Student Worker (Lund Municipality). Public Sector. Researcher and Project Implementation.
+
+- 2010 - 2012 (2 yrs. 1 mo.): Project Coordinator (DLSU). Educational Instituion. Events Managment, Marketing.
+
+- 2009 - 2009 (9 mos.): Junior Analyst (PSA). Management Consulting. Researcher, Project Management, Documentation.
+
+- 2007 - 2008 (1 yr 3 mos.): Junior Technical Services Assistant (PRIMEX). Management Consulting. Documentation, Project Management
+
+- 2007 - 2007 (3 mos.): Internship (ABS-CBN). Television. Art Department, Pre Production
+
+- 2006 - 2006 (7 mos.): Internship (GMA Network). Television. Production and Post Production
+
+<!---
+gabriel-pavico/gabriel-pavico is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
 
