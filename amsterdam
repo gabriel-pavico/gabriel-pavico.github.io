@@ -51,13 +51,13 @@
             This merged polygon, we call it 'good zones', was then used to select zipcodes if the zipcodes happen to intersect these good zones.
         </p>
         
-        <img src="">
+        <img src="https://github.com/gabriel-pavico/gabriel-pavico.github.io/blob/main/images/amsterdam/Good_spots.png">
 
         <p>
             Upon looking closely at the map, some areas seem to be too far from the city centre. Using the districts, I only selected zipcodes that fall within the inner city districts.
         </p>
         
-        <img src="">
+        <img src="https://github.com/gabriel-pavico/gabriel-pavico.github.io/blob/main/images/amsterdam/Good_innerstad.png">
         
         <p>
             I presented the two maps to her as reference, and even provided an Excel file of zipcodes for her to use when she was doing her apartment search.
