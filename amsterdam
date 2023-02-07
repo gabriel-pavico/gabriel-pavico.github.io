@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ideal location to live in Amsterdam</title>
+        <meta name="description" content="Ideal location to live in Amsterdam">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>PROJECT: FINDING AN IDEAL LOCATION IN AMSTERDAM</h1>
+        <h2>Context</h2>
+        
+        <p>
+            A pregnant friend was moving to Amsterdam and to help her, I decided to provide locations and specific 
+            zipcodes where it would be ideal to live.
+        </p>
+        
+        <h2>Criteria</h2>
+        <p>
+            I came up with a criteria for zipcodes that would probably make the pregancy as convenient as possible:
+        </p>
+        <ul>
+            <li>within 500 metres from Bus Stops</li>
+            <li>within 250 metres from Parks</li>
+            <li>within 1 kilometre from Hospitals</li>
+        </ul>
+        
+        <h2>Additional Files</h2>
+        <p>
+            Aside from these variables, I need the additional files:
+        </p>
+        <ul>
+            <li>Zipcodes</li>
+            <li>Quarters</li>
+        </ul>
+        <p>
+            All files are downloaded from the <a href="https://maps.amsterdam.nl/open_geodata/?LANG=en">Amsterdam City website</a>
+        </p>
+        
+        <h2>Steps and Results</h2>
+        <p>
+            Buffer zones were created based on the criteria that was set for the three variables.
+        </p>
+        <p> 
+            These were then 'merged' together by only selecting areas that intersect the buffer zones.
+        </p>
+        <p>
+            This merged polygon, we call it 'good zones', was then used to select zipcodes if the zipcodes happen to intersect these good zones.
+        </p>
+        
+        <img src="">
+
+        <p>
+            Upon looking closely at the map, some areas seem to be too far from the city centre. Using the districts, I only selected zipcodes that fall within the inner city districts.
+        </p>
+        
+        <img src="">
+        
+        <p>
+            I presented the two maps to her as reference, and even provided an Excel file of zipcodes for her to use when she was doing her apartment search.
+        </p>
+    </body>
+</html>
