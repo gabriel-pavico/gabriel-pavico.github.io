@@ -6,8 +6,9 @@
 - 📫 You may contact me via <a href='https://www.linkedin.com/in/gpavico/'>LinkedIn</a>
 
 Projects (more to follow:
+- <a href="/thesis.html">Thesis Project: Where there is Road, there is Fire (Influence)</a>
+- <a href="https://github.com/gabriel-pavico/gabriel-pavico.github.io/tree/main/arcpy_scripts">ArcPy Python Scripts created for the thesis project</a>
 - <a href="/amsterdam.html">Ideal location to live in Amsterdam</a>
-- <a href="/arcpy_scripts/">ArcPy Python Scripts created for the thesis project</a>
 
 Education
 
