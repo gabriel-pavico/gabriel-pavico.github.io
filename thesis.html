@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Thesis Project: Where there is Road, there is Fire (Influence)</title>
+        <meta name="description" content="Thesis Project">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <h1>WHERE THERE IS ROAD, THERE IS FIRE (INFLUENCE): AN EXPLORATORY STUDY ON THE INFLUENCE OF ROADS IN THE SPATIAL PATTERNS OF SWEDISH WILDFIRES OF 2018</h1>
+        <h2>Context</h2>
+        
+        <p>
+            This is a short presentation of my thesis project, for the full version of the master thesis, please click <a href='https://lup.lub.lu.se/student-papers/search/publication/9106803'>here</a>. Copies of ArcPy code can be seen <a href="https://github.com/gabriel-pavico/gabriel-pavico.github.io/tree/main/arcpy_scripts">here</a>.
+        </p>
+        
+        <h2>Introduction</h2>
+        <p>
+            Wildfires are uncontrolled occurrences of fire in natural landscapes such as forests, wetlands and open landscapes. These are  natural processes in the environment that can aid in the reinvigoration of vegetation, but now there are cases where it can be destructive especially when caused by humans (Houghton, 2015, p. 222; World Wildlife Fund for Nature and Boston Consulting Group, 2020).
+        </p>
+        <p>
+            The Intergovernmental Panel on Climate Change (IPCC) has concluded that the climate change that we are experiencing right now is due to anthropological causes (IPCC, 2007). This now means longer drought seasons and larger fire seasons. 
+        </p>
+        <p>
+            Our societies are constantly evolving, in which clusters of population need to be interconnected for growth (Dewberry, 2008, p. 3; Wachs and Schofer, 1969). This entails the need for infrastructures such as roads to cut through natural landscapes for interconnectivity.
+        </p>
+        <img src="/images/thesis/Schematic.png?raw=true">
+        <p>
+            In a report by the <a href="https://rib.msb.se/filer/pdf/29059.pdf">Swedish Civil Contingencies Agency</a>, with the illustration above inspired from the report (Granström, 2020), the essential variables in the spread of fires are drought, wind direction, and the presence and the quality of burnable materials. Now, imagine a road in this illustration, either the road is seen inside the fire, or somewhere outside? That is what I thought to myself. Which led me to this idea for the thesis 
+        </p>
+        <h2>Research Question and Objectives</h2>
+        <p> 
+            We have the research question: how do roads influence the size of a fire's burned?
+        </p>
+        <p>
+            The study aims to understand the role of the built environment, specifically roads, in the spread of fires. Hopefully the results of the study can contribute to the collective knowledge on wildfires. I also hope that the research could help planners identify risk areas through the elements presented in the study. 
+        </p>
+        <p>
+            The study is exploratory in nature, where several variables were tested. To make the study and this presentation as direct as possible, what was displayed in the study is only a fraction of what was actually examined and tested. 
+        </p>
+        <h2>Limitations</h2>
+        <p>
+            For the limitations, I was heavily reliant on data that is already available. As I focus on the 2018 wildfires, it is quite hard for me to verify the data, and logistically impractical for me to conduct field work.
+        </p>
+        <p>
+            In the assumption of time, more than two-thirds of fires occurred in a single weekend in July, hence I only considered the meteorological observations for this month.
+        </p>
+        <p>
+            Fire suppression data is not available. According to the reports, there was no documentation on how these efforts both on land and air were suppressed.
+        </p>
+        <h2>Study Area</h2>
+        <p>
+            When talking about the land area, of Sweden’s total land area of 410 thousand square kilometers, 68 percent or 280 thousand square kilometres of this is covered by forests. Of the forest land, 83% of forests are utilised for forestry-related activities. 
+        </p>
+        <img src="/images/thesis/Picture1.png?raw=true">
+        <p>
+            The fire season of 2018 is considered to be extraordinary as the burnt area was ten times the annual average of the previous years. And this is the reason the study focuses on the timeframe as it can provide an exaggerated view of the interplay between the geography and the temporal data. 325 fires were observed throughout this year, starting as early as April and ending in mid-August.
+        </p>
+        <p>
+            Although efforts done in the air were helpful in suppressing fires in broader strokes, it was noted that land efforts were essential to ensure that embers are stifled to prevent reignition.
+        </p>
+        <img src="/images/thesis/Map1.png?raw=true">
+        <p>
+            The image above is a breakdown of the incidences and spread of wildfires per region. Where Region Mitt, consisting of Jämtland, Västernorrland, Dalarna and Gävlesborg incurred the most fires in terms of incidence and area. This is followed by Region Nord, consisting of Norbotten and Västerbotten.
+        </p>
+        <h2>Related Literature</h2>
+        <p>
+            Human-caused fires appear close to roads (Banerjee, Das and John, 2021) and in areas of high road density (Narayanaraj and Wimberly, 2012). This is in line with the Swedish study of Pinto et al. (2020), and another study by Forman and Alexander (1998) saying that while occurrence was higher in areas of high road and population density, these did not translate to larger fires. A probable reason for this is that roads stand as an access for fire suppression (Leonard, Plantinga and Wibbenmeyer, 2021).
+        </p>
+        <p>
+            The inverse of this is that the more remote a fire is to towns or roads, the larger the fires tend to be due to the lack of people to notice the fires until it becomes noticeable, and the lack of roads to fragment the continuous landscapes (Narayanaraj and Wimberly, 2012). 
+        </p>
+        <p>
+            Now we go on to the concept of fire conformity, where Yocom et al. (2019) saw that fires, tend to conform their perimeters to the roads at an average of 25 %. And when compared to edges of previous fires, averaging at 8.7 %. This shows the importance of access and availability to the burnable materials and in turn the role and influence of roads in the dynamics of wildfires.
+        </p>
+        <img src="/images/thesis/FWI.png?raw=true">
+        <p>
+            Lastly, we have the meteorological index Fire Weather Index where it stands as a proxy calculation using observations such as temperature, relative humidity, wind and rain to refer to the different depths from the forest floor surface to estimate their susceptibility in the spread of fires (Lawson and Armitag, 2008). This originated in Canada, and also seen to be applicable in the Swedish context (Pagnon Eriksson and Johansson, 2020). Although a well-established predictor, it cannot take into consideration the variation in landscape such as the presence of roads or if the land is indeed burnable or not, hence the need to use other variables to explain the phenomenon of wildfires as well (Krikken et al., 2021) . 
+        </p>
+        <h2>Data</h2>
+        <img src="/images/thesis/Flowchart.png?raw=true">
+        <p>
+            What you see above is a diagram of the geoprocesses that were used in the study. I will be detailing the most important parts.
+        </p>
+        <p>
+            To guide you, the derivative files are signified by the smaller rhomboids to the right, while the originating files are the big rhomboids to the left, coming from various government agencies.
+        </p>
+        <p>
+            These originating files were transformed using ArcGIS Pro and some via ArcPy to automate some geoprocesses. These were then eventually tabulated to SPSS for further logarithmic transformations and eventual statistical analysis, and was fed again into python to visualise the data.
+        </p>
+        <h2>Methodology</h2>
+        <img src="/images/thesis/Map2.png?raw=true">
+        <p>
+            Fire Roads are derived by simply intersecting the polygons of fires against the road. Using the illustration, these are simply the roads that are seen to be inside the fire polygon.
+        </p>
+        <p>
+            When I was starting out with the thesis project without any clear direction, I noticed that fires had conformed their perimeters with the contours of the road. I eventually found the study by Yocom et al. (2019) that looked at conformity, but reduced the buffer from 60 to 30 metres.
+        </p>
+        <p>
+            I derived road conformity by converting the perimeter of the fires into a polyline and creating a 30-metre buffer from the nearby roads. By intersecting the fire polyline against the road buffers, we get the lengths of road conformity.
+        </p>
+        <img src="/images/thesis/Map3.png?raw=true">
+        <p>
+            For the landcover, this was extracted based on the classification of water, towns, forests, wetlands, and open landscapes. 
+        </p>
+        <p>
+            Simultaneously the road polygon was created by merging all the road segments together, and eventually converting this to a polygon layer. The parcels of landscapes are then derived by intersecting the landscapes against the road polygon.
+        </p>
+        <p>
+            In the image above, we have the different variations of the landcover, on the northern part you see the open landscape that was already broken down or separated by the road. The other part is not displayed as it did not connect or intersect with the fire polygon. So all the land that connected with fires were selected if they intersected with fires. And areas that are within the fire polygon were further intersected.
+        </p>
+        <p>
+            For roads, these are differentiated as roads that are inside or outside the extents of towns. 
+        </p>
+        <p>
+            For the meteorological observations, the mean values of the dataset was calculated and eventually extrapolated to create a raster.
+        </p>
+        <p>
+            The results section comes in three parts. Descriptive Statistics, Univariate and Multivariate Regression Modeling, with the Univariate Modeling used to somehow justify the selection of variables used in the multivariate model. In the virtue of brevity, I am only discussing the descriptive statistics and the multivariate regression model.
+        </p>
+        <p>
+            There were two datasets that were created, one that is for the individual fire sites, and per grid. I treated the site dataset as a descriptive dataset, while the grid dataset can be used to predict the outcomes due to the preconditions in the area. The grids of 100 x 100 square kilometres were laid in the extents of Sweden and I compiled all the layers within the grids, eventually tabulating it.
+        </p>
+        <p>
+            In the multivariate model, I ran two regression models. First is the mean fire area, and the second is the percentage of road conformity of fires.
+        </p>
+        <img src="/images/thesis/Formula.png?raw=true">
+        <p>
+            Lastly, risk or likelihood maps were produced as a result of the models to represent the areas that would have the likelihood of the dependent variable from happening. This is using the beta coefficients and the individual r2 values of the independent variables in the model.
+        </p>
+        <h2>Results</h2>
+        <img src="/images/thesis/Table.png?raw=true">
+        <p>
+            There are 325 individual sites recorded in 2018, having a total area of 229 square kilometres, averaging at 0.7 square kilometres. It must be noted however that there were four sites that spread more than 10 square kilometres, totaling to 155 square kilometres, about two-thirds of the total burn area. To rectify this, logarithmic transformations were applied for the succeeding statistical tests to somehow normalise the distribution of results.
+        </p>
+        <p>
+            The length of roads that intersected with 73 individual fires was seen at 336 kilometres. In addition to the 73 individual fires, there were 43 more sites, totalling to 116 sites that have varying degrees of conformity of the fire perimeter with the roads. The affected perimeter can be seen at 109 kilometres. This coincides to 14 percent of the total fire perimeter of all fires. Furthermore, the average percentage of fires with varying conformity with roads was seen to be at 26.79 percent.
+        </p>
+        <p>
+            These two sums coincide with the <a href="https://www.diva-portal.org/smash/get/diva2:1425687/FULLTEXT01.pdf">Swedish Transportation Administration</a>’s report where 420 kilometres of roads were in need of repairs after the 2018 fire season (Eriksson, et al., 2018). These 116 individual fire sites that interacted with roads account to under 95% of the total fire area of the year.
+        </p>
+        <p>
+            But what about those 209 sites that had no form of interaction with roads? These account to just over 5 percent of the total burnt area. Their average distance to roads is 290 metres.
+        </p>
+        <p>
+            In terms of burnt surfaces, 88% of the area can be attributed to forests, wetlands at 11.58%, and a bit over than 0.1% of the total burnt area was open landscapes.
+        </p>
+        <img src="/images/thesis/Map4.png?raw=true">
+        <p>
+            By looking at the grid dataset, the maps look different when looking at the number of incidence of fires, total area and mean area of fires. These are categorised using the jenks method. Here we see that the number of fires are spread out sporadically in the first map, while in the second map there is a concentration of big fires in the middle of the map, while in the third map it becomes less concentrated and in turn becomes dispersed.
+        </p>
+        <img src="/images/thesis/Map5.png?raw=true">
+        <p>
+            When looking at road densities outside towns, it becomes dense close to major counties such as Skåne, Väster götaland and Stockholm. I would like for you to take in mind the areas that have lower road densities.
+        </p>
+        <img src="/images/thesis/Map6.png?raw=true">
+        <p>
+            Now, when roads traverse the three types of landscapes, forest, wet and open, it creates parcels of continuous land. And the three maps show you the distribution of mean sizes of parcels using uniformed scales. Also using jenks categorisation.
+        </p>
+        <p>
+            Larger mean areas of forests are seen north as well as for wetlands, although with lesser intensity. Thinking at the previous map, these are the areas with low density of roads. Open landscapes are more dispersed in terms of the average areas after cutting the parcels using roads. After going through the descriptive statistics, we can continue with the multivariate regression analysis. 
+        </p>
+        <p>
+            For model 1 the mean area of fires, I have used the following variables: mean area of forests, mean area of open land, mean distance of fires to nearest town, mean FWI and Temperature in July.
+        </p>
+        <p>
+            The model is seen to be statistically significant, explaining 46 % of the variation seen in mean fire areas. All variables are seen to not be collinear with each other. And here is the scatter plot of the partial correlations.
+        </p>
+        <img src="/images/thesis/Scatter1.png?raw=true">
+        <p>
+            In the model, only two variables tested to be statistically significant. The Mean size of forests provides a positive effect on mean fire area, with an individual r2 value of .233. Open landscapes with a negative effect in mean fire areas, with an individual r2 value of .112. This implies that the increase in mean size of forest parcels, the larger the expected fire area, and the opposite with open land with larger mean areas in a grid would entail a smaller mean area of fires.
+        </p>
+        <p>
+            The distance to towns although significant on the univariate level, was not seen to be the case in this one. What was seen to have a positive effect, now has a slightly negative correlation in this case. July FWI and Temperature were also not seen to be significant in influencing the model. With mean FWI having a slightly negative relationship, and a positive relationship when looking at the mean temperature. 
+        </p>
+        <img src="/images/thesis/Map7.png?raw=true">
+        <p>
+            Here we have the risk or likelihood map of larger mean fire areas to the left, and the 2018 map of mean area of wildfires to the right. When using the coefficients and the individual r2 values, I created a new value in which I mapped out the risks of higher mean fire areas. As the model answers almost 46% of the variation, the risk map on the left could somehow recreate the 2018 fire map on the right. Although a bit exaggerated than the actual map. 
+        </p>
+        <p>
+            The next model explores elements that dictate the percentage of a fire perimeter conforming to the contours of the road. The independent variables are the road density outside towns and the total forest area in a grid.
+        </p>
+        <img src="/images/thesis/Scatter2.png?raw=true">
+        <p>
+            The model is statistically significant and can explain 29 % of the variation seen in the road conformity percentage. Both variables can be considered to be statistically significant to certain degrees, and positive effects in variation of road conformity percentage. Road density is significant on a 95 % confidence interval. Total forest area, is also statistically significant but on a 90 % confidence interval.
+        </p>
+        <img src="/images/thesis/Map8.png?raw=true">
+        <p>
+            When using the results of the model to calculate for values to be mapped, the result as seen on the left turned out to be less than desirable when compared to what was actually recorded on the right. Although statistically significant, it does not fully capture the nuances that explain the outcome of 2018.
+        </p>
+        <h2>Conclusions</h2>
+        <p>
+            What are the takeaways from the study? We learned that as a fire spreads, the likelihood that it will interact with a road increases. And there are three possible scenarios when this happens: the fire would eventually lose access to burnable materials where roads would act as a fire barrier. A second scenario is a fire just simply spreads to the other side of the road, as we see in the intersected fires. And a third scenario, although no data to really support this is that the roads would act as access points for manual suppression of fires. 
+        </p>
+        <p>
+            We already know that the denser roads are in a location, smaller fires can be observed. This is in accordance with the univariate findings of road density against fire sizes seeing there is a negative relationship. We also know that the type of landcover also plays a role in fire sizes. Open landscapes provide the smallest opportunity for fires to spread, while forest and wetlands are more susceptible to larger fires. 
+        </p>
+        <p>
+            By using average parcel sizes in a grid, it targets two things: the landcover and the proxy presence of roads as roads are the reason why we were able to cut through the landscapes to smaller parcels of land. Although I did not include wetlands in the model, it would also have the same relationship, but with differing degrees of effect to fire areas.
+        </p>
+        <p>
+            The second model is more experimental with only two independent variables tested against the ratio of road conformity of the fire perimeter. This time I wanted to separate the two effects, road density and landcover, specifically the total area of forests in a grid. The two variables are significant in different degrees, and the amount of forests help drive the fires, but at the same time the presence of roads in the form of density increase the percentage of conformity of the fire’s perimeter to the roads.
+        </p>
+        <h2>Recommendations</h2>
+        <p>
+            The study tries to add something new to the knowledge that we have on wildfires, that roads and sizes of landscapes influence the variation of areas in wildfires. There was exploratory work done on the conformity, which could be investigated some more. Other variables could be used using Max FWI instead of Mean, or Population Density instead of distance to roads. Lastly, comparative studies could be made in different countries using similar methodologies.
+        </p>
+        <h2>Bilbiography</h2>
+        <p>Please refer to the thesis document for the full bibliography.</p>
+        <ul>
+            <li>
+                Banerjee, S., Das, D. and John, R. (2021) 'Grassland vegetation and roads have dominant influence on decadal-scale spatial-temporal patterns of fires in a species-rich protected Terai habitat in northeastern India', Agricultural and Forest Meteorology, 304-305.
+            </li>
+            <li>
+                Eriksson, S., Lasell, A., Sandgren, M., Gunnarsson, S., Nymark, E., & Larsson, S. (2018). Slutrapport avseende: Kartläggning av skador på transportinfrastruktur med anledning av skogsbränderna sommaren 2018. Retrieved from Gävle: <a href="https://www.diva-portal.org/smash/get/diva2:1425687/FULLTEXT01.pdf">https://www.diva-portal.org/smash/get/diva2:1425687/FULLTEXT01.pdf</a>.
+
+            </li>
+            <li>
+                Forman, R. T. T. and Alexander, L. E. (1998) 'Roads and Their Major Ecological Effects', Annual Review of Ecology and Systematics, 29, pp. 207-231.
+            </li>
+            <li>
+                Granström, A. (2020) Brandsommaren 2018 – Vad hände, och varför? , Umeå: Institutionen för skogens ekologi och skötsel, SLU. Available at: <a href="https://rib.msb.se/filer/pdf/29059.pdf">https://rib.msb.se/filer/pdf/29059.pdf</a>.
+            </li>
+            <li>
+                Houghton, J. T. (2015) Global warming : the complete briefing. 5. ed. edn. Cambridge, UK: Cambridge University Press.
+            </li>
+            <li>
+                IPCC (2007) Climate Change 2007: Synthesis Report. Contribution of Working Groups I, II and III to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change Geneva, Switzerland: IPCC.
+            </li>
+            <li>
+                Krikken, F., Lehner, F., Haustein, K., Drobyshev, I. and Oldenborgh, G. J. v. (2021) 'Attribution of the role of climate change in the forest fires in Sweden 2018', Natural Hazards and Earth System Sciences, 21, pp. 2169-2179.
+            </li>
+            <li>
+                Lawson, B. D. and Armitag, O. B., Canadian Forest Service Northern Forestry Center (2008) Weather Guide for the Canadian Forest Fire Danger Rating System. Edmonton, Canada: Natural Resources Canada.
+            </li>
+            <li>
+                Leonard, B., Plantinga, A. J. and Wibbenmeyer, M. (2021) 'Stranded land constrains public land management and contributes to larger fires', Environmental Research Letters, 16(11), pp. 114014.
+            </li>
+            <li>
+                Narayanaraj, G. and Wimberly, M. C. (2012) 'Influences of forest roads on the spatial patterns of human- and lightning-caused wildfire ignitions', Applied Geography, 32(2), pp. 878-888.
+            </li>
+            <li>
+                Pagnon Eriksson, C. and Johansson, N. (2020) Review of wildfire indices: Indices applicable for a Swedish context [Report], Lund: Division of Fire Safety Engineering, Lund University. Available at: <a href="https://ludwig.lub.lu.se/login?url=https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,uid&db=edsswe&AN=edsswe.oai.lup.lub.lu.se.404387de.8dd1.4b72.9c45.fe3e4f431048&site=eds-live&scope=site">https://ludwig.lub.lu.se/login?url=https://search.ebscohost.com/login.aspx?direct=true&AuthType=ip,uid&db=edsswe&AN=edsswe.oai.lup.lub.lu.se.404387de.8dd1.4b72.9c45.fe3e4f431048&site=eds-live&scope=site</a>.
+            </li>
+            <li>
+                Pinto, G. A. S. J., Rousseu, F., Niklasson, M. and Drobyshev, I. (2020) 'Effects of human-related and biotic landscape features on the occurrence and size of modern forest fires in Sweden', Agricultural and Forest Meteorology, 291, pp. 108084.
+            </li>
+            <li>
+                World Wildlife Fund for Nature and Boston Consulting Group (2020) Fires, Forests And The Future: A Crisis Raging Out Of Control? [Report], Switzerland: WWF International.
+            </li>
+            <li>
+                Yocom, L. L., Jenness, J., Fulé, P. Z. and Thode, A. E. (2019) 'Previous fires and roads limit wildfire growth in Arizona and New Mexico, U.S.A', Forest Ecology and Management, 449, pp. 1-7.
+            </li>
+        </ul>
+        <h3><a href="/index.html">Back to home</a></h3>
+    </body>
+</html>
