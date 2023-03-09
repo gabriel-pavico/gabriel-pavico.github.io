@@ -28,11 +28,11 @@ Professional Experience
 
 I have worked in various industries since 2007, and below are short descriptions of the positions I have held throughout my career.
 
-- 2022 - 2022 (6 mos.): Project Assistant (Lund University). Educational Instituion. Research, R Programming, Python.
+- 2022 - 2022 (6 mos.): Project Assistant (Lund University). Educational Institution. Research, R Programming, Python.
 
 - 2015 - 2020 (4 yrs. 4 mos.): Regulatory, QA, Design Coordinator (Kyäni Europe). Consumer Goods. Regulatory Affairs, Quality Assurance, Graphics and Video Editing, Publishing, Marketing.
 
-- 2013 - 2015 (2 yrs). Research Assistant (Lund University). Educational Instituion. Researcher, Proof Reader, Project Management.
+- 2013 - 2015 (2 yrs). Research Assistant (Lund University). Educational Institution. Researcher, Proof Reader, Project Management.
 
 - 2013 - 2014 (1 yr. 3 mos.): Student Worker (Lund Municipality). Public Sector. Researcher and Project Implementation.
 
